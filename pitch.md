@@ -6,6 +6,8 @@ story:
 At my old job, I inherited a production codebase of 70,000 lines,
 overzealously cut-and-pasted and brazenly untested.
 
+---
+
 I loved to complain about this code.
 
 "The developer is long gone. He's the big CTO at Acme Megabucks,
@@ -21,6 +23,8 @@ revenge for what he did to me.
 
 In the middle of this, I had a job to do.
 
+---
+
 I had to repay five years of accumulated technical debt.
 
 I had to patch up gaping security holes before anyone else found them.
@@ -33,6 +37,8 @@ This was a system that my company depended on every day, and I was
 the only one in the whole freaking building who knew it could come
 apart at any moment.
 
+---
+
 I was out of my depth, but I put on a brave face. I ordered copies of
 Martin Fowler's *Refactoring* and Michael Feathers' *Working Effectively with Legacy Code*. I worked slavishly, nights and weekends, hacking,
 squeezing, extracting, injecting. I was a battlefield medic, slashing
@@ -40,6 +46,8 @@ limbs and yanking out shrapnel. I told my non-technical friends that
 every day at work was like prodding a sick man through a desert.
 
 "No, that's enough water for now. No, you can't like down! DO YOU WANT TO DIE?!"
+
+---
 
 I thought we'd never make it, but things began to turn around.
 
@@ -55,6 +63,8 @@ We jumped for joy and fell to our knees in an embrace,
 my partner and I
 this legacy codebase and I.
 
+---
+
 In our journeys every day, our legacy systems are our partners.
 They need us, but we also need them. Without their glaring imperfections,
 what would we do all day? Why would we get up in the morning?
@@ -68,5 +78,7 @@ have outgrown together,
 
 What would software development be like if we could set aside our
 anger and our terror, to practice compassion for our code?
+
+---
 
 Come to my talk next month, and find out!
