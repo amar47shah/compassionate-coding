@@ -16,10 +16,6 @@ I relished my hatred for the coder who went before me.
 How could he leave me in this mess?
 Did he have no pride? Was he completely without honor?
 
-I followed him on Twitter, and my guts roiled as I read his pithy
-endorsements of TDD and the advance marketing for his upcoming book on
-microservice RESTful architectures.
-
 I wanted to scream from the rooftops that he was a phony. I wanted
 revenge for what he did to me.
 
