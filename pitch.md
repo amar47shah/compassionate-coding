@@ -81,4 +81,17 @@ anger and our terror, to practice compassion for our code?
 
 ---
 
-Come to my talk next month, and find out!
+You’ll never stop working with code that’s hard to figure out or difficult to change.
+
+Code comes to you as it is, not as you wish it were.
+It has a history that you’ll never fully know.
+It is wild, unruly, and fiercely self-sovereign.
+But this code, this stubborn creature, is entrusted to you.
+Let go of your anger at the developer who wrote it.
+Let go of the terror of being blamed for its unforeseeable regressions.
+
+---
+
+Working with legacy code can be fun.
+
+Come to the talk next month, and find out why.
