@@ -9,6 +9,16 @@ Questions:
 
 Code as Partner
 * Code that came to me as it was, though I couldn't recognize why it was that way
+* Your partner has faults. You do too. They're not the same faults.
+  - different coders have different strengths
+  - We tend to think of skill development as a linear metric.
+    - Coder A spends X years applying consistent effort to certain skills
+    - Coder B spends Y years applying same degree of consistent effort
+        to same skills
+    - If Y > X, then Coder B should be better skilled than Coder A, right?
+    - Clearly this is wrong
+    - nowadays, software engineering skills comprise a highly dimensional space
+      cf. Michael O Church, why programmers can't make money
 
 Code as Child
 * Beatrix
