@@ -96,3 +96,38 @@ emotions I recall feeling when I discovered that the app that my
 company depended on every day was a ticking time bomb, and that I
 was the only one in the whole organization who understood what that
 meant.
+
+I was terrified that I would be blamed if an intruder hacked our
+app, or if EngineYard yanked support for Ruby 1.8, or if our deployment
+couldn't scale along with increasing loads, since the app used file
+storage and therefore could not run on a many-instance cluster.
+
+I dealt with my fear by turning it into anger at the developer at
+the contracting shop, the one who wrote the bulk of the app. A bit
+of googling later and I knew a lot about him, and all of it disgusted me.
+The app he built for us had no tests; he tweeted pithily in praise
+of TDD. Our abandoned, forsakened API was a single route; he was
+writing a book on microservice RESTful architectures. He had closed
+his contracting shop and was now the CTO at a local company that
+touted its software practices and promised to only hire the best
+developers. When I had applied there earlier that year, I never
+heard back.
+
+I gave this developer an unflattering nickname, derived from his
+unique git commit style, and took to the Twitterwaves to complain
+about him. All in all, I'm pleasantly surprised that I was able to
+exercise any discretion at all. I hated this man; to me, he was
+the embodiment of fraud, a snake-oil salesman leaving throngs of
+sad, sick pioneer townspeople in his wake. I refused to consider
+the possibility that building sick applications had taught him
+to value healthy practices. In my eyes, this man was morally
+unredeemable.
+
+But even worse, I had a real job to do. I had to dig this app out
+of its mess. Management agreed to spend the rest of the year shoring
+up our legacy production Rails app. What choice did they have?
+I ordered copies of Martin Fowler's _Refactoring_ and Michael Feathers'
+_Working Effectively with Legacy Code_. Thumbing through Chad Pytel and
+Tammer Saleh's book, I chuckled grimly as I noted that ASDF, like
+an evil genius, had prodigiously employed every known Rails anti-pattern.
+
