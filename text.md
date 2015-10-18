@@ -42,4 +42,57 @@ start over, she said. With two votes to axe the project, management agreed.
 They were starting to see that their software ambitions were not going to
 come easy.
 
+But we had dodged a bullet. When I was preparing to sell the idea of
+ditching the mobile app and starting over, I rehearsed this line:
+"What do you want me to be doing in five years?" As I saw it, we could
+either sink years into rehabilitating this project or we could try again.
 
+And it worked. Management agreed. Having secured their faith and blessing
+to start over, I got to the drawing board, researching the most solid
+libraries for building data-rich iOS clients with modular, reusable
+components and extensive automated tests. And then the bugs began to
+file in.
+
+What bugs? Production bugs, from the Rails app. Remember that thing?
+Five in-house users furiously POSTing new records copied off of
+paperwork, waiting sometimes 30 seconds for forms to load, realizing
+there was no way to undo mistakes, and hacking creative workarounds
+that mangled the underlying data. Perhaps ten more users around the office
+checked in once in a while: lost, disoriented, and most of the
+time, running away before they realized that the data just wasn't
+adding up. The longer I worked at this company, the more apparent was
+its office mantra: See something, don't say anything.
+
+That is, after all, what external contractors had been doing whenever
+our bugfixes rose to the tops of their queues. Form loading slow? Ok,
+one-line fix, one hour billed. A week goes by. Another slow-loading form?
+Rinse and repeat, ignore the cut-and-pasted forms with the same bugs on
+each. What would be the motivation for an external contractor
+to attempt a refactoring in a code base without tests?
+
+Yes, that's right. This Rails app that I inherited, the one that had
+been described by my boss (a marketer!) as "pretty solid," had no
+automated tests. It was stuck precariously on Ruby 1.8.7 and Rails 2.3,
+both end-of-life. I described the entity relationships as a "star
+topology"; what I was conveying was that it was a giant clusterf---.
+The 70,000 lines read like they were written on a whiteboard at a
+dismal job interview. "I was hoping you'd use Enumerable#select,"
+the interviewer lamented. It was a relief that it seemed that customers
+barely used the app, since the data presented in the customer portal
+was simply wrong, and anyway, if they didn't like their data, they
+could change everything (for anyone) by pointing their browsers to
+the admin portal, which any user could access as long as they had the
+link. The fact that we hadn't been hacked yet, at least meant that
+nobody cared enough to hack us. How long could we keep getting away
+with that?
+
+So here I was, with a production application with no automated tests,
+with gaping security holes, stuck on dead and out-of-date gems. The
+words flashed in front of me again: "What do you want me to be doing
+in five years?"
+
+I get upset just thinking about these moments, because of all the
+emotions I recall feeling when I discovered that the app that my
+company depended on every day was a ticking time bomb, and that I
+was the only one in the whole organization who understood what that
+meant.
