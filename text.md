@@ -134,3 +134,18 @@ _Working Effectively with Legacy Code_. Thumbing through Chad Pytel and
 Tammer Saleh's book, I chuckled grimly as I noted that ASDF, like
 an evil genius, had prodigiously employed every known Rails anti-pattern.
 
+My fear drove me to work slavishly, hauling my computer home on
+nights and weekends, afraid to let an hour slip by without pushing
+this app to be more fully tested or more cleanly organized. I
+ruthlessly scaled back features on the customer side of the app.
+Customers weren't complaining about the debilitating bugs in the
+"Advanced Search" feature. Do you think that was because they were
+just being polite? This wasn't the time to polish up features that
+no one wanted enough to actually use. We were in a war zone. I was a
+battlefield medic: hacking, squeezing, extracting, injecting, slashing
+limbs and yanking out shrapnel.
+
+I told my non-technical friends that every day at work was like
+prodding a sick man through a desert. Keep going, I said to his many
+pleas to stop and rest. I spared him whatever kindness I could, but
+it wasn't much.
