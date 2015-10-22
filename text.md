@@ -41,7 +41,7 @@ so I decided to give her a call. She was very nice, but her hatred for
 this unreleased mobile app was chilling even over the phone. Kill it and
 start over, she said. With two votes to axe the project, management agreed.
 They were starting to see that their software ambitions were not going to
-come easy.
+come easily.
 
 But we had dodged a bullet. When I was preparing to sell the idea of
 ditching the mobile app and starting over, I rehearsed this line:
@@ -91,7 +91,8 @@ with that?
 
 So here I was, the lone maintainer of a production application with
 no automated tests, with gaping security holes, with dependencies that
-were out-of-date and sometimes completely dead. The words flashed
+were out-of-date and sometimes completely dead, and with features so
+unnecessary that users didn't know they were broken. The words flashed
 in front of me again: "What do you want me to be doing in five years?"
 
 I get upset just thinking about these moments, because of the
@@ -141,11 +142,24 @@ ruthlessly scaled back features on the customer side of the app.
 Customers weren't complaining about the debilitating bugs in the
 "Advanced Search" feature. Do you think that was because they were
 just being polite? This wasn't the time to polish up features that
-no one wanted enough to actually use. We were in a war zone. I was a
+no one wanted enough to actually use. We were in a war zone, and I was a
 battlefield medic: hacking, squeezing, extracting, injecting, slashing
 limbs and yanking out shrapnel.
 
 I told my non-technical friends that every day at work was like
 prodding a sick man through a desert. Keep going, I said to his many
 pleas to stop and rest. I spared him whatever kindness I could, but
-it wasn't much.
+it wasn't much. I knew that if I let him drink the rest of our water
+and lie down for a nap, then both of us would die out here.
+
+Over the coming months, though the anger and the fear still smoldered
+around us, things began to change. I started with the models, the
+smallest ones first, breaking down each method and redoing it with
+TDD. In a couple months, I couldn't put it off any longer. It was time
+to confront the god-models, the ones with over a thousand lines of
+Ruby code. These models weren't fat; they were pregnant: they held
+inside them whole classes of their own, a service layer of plain-old
+Ruby objects.
+
+We wrapped our parched throats in this spartan service layer and
+soldiered on through the deserts.
