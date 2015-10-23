@@ -93,18 +93,21 @@ So here I was, the lone maintainer of a production application with
 no automated tests, with gaping security holes, with dependencies that
 were out-of-date and sometimes completely dead, and with features so
 unnecessary that users didn't know they were broken. The words flashed
-in front of me again: "What do you want me to be doing in five years?"
+in front of me again: "Amar, what do you want me to be doing for the next
+five years?"
 
 I get upset just thinking about these moments, because of the
 emotions I recall feeling when I discovered that the app that my
-company depended on every day was a ticking time bomb, and that I
-was the only one in the whole organization who understood what that
-meant.
+company depended on every day was a ticking time bomb, and that I,
+as the only developer, the only person in the building who had even
+the slightest interest in software, was the only one in the whole
+company who understood that disaster was just around the corner.
 
 I was terrified that I would be blamed if an intruder hacked our
-app, or if EngineYard yanked support for Ruby 1.8, or if our deployment
-couldn't scale along with increasing loads, since the app used file
-storage and therefore could not run on a many-instance cluster.
+app, or if our cloud service provider yanked support for Ruby 1.8
+or Rails 2.3, or if our deployment couldn't scale along with
+increasing loads, since the app used file storage and therefore
+could not run on a distributed cluster.
 
 I dealt with my fear by turning it into anger at the developer at
 the contracting shop, the one who wrote the bulk of the app. A bit
@@ -119,7 +122,9 @@ applied there earlier that year, I never heard back.
 
 I gave this developer an unflattering nickname, derived from his
 unique git commit style, and took to the Twitterwaves to complain
-about him. All in all, I'm pleasantly surprised that I was able to
+about him. At local meetups, I'd hear his name and say, "Oh yeah,
+I know ASDF. Not directly; I know him *through his work*."
+All in all, I'm pleasantly surprised that I was able to
 exercise any discretion at all. I hated this man; to me, he was
 the embodiment of fraud, a snake-oil salesman leaving throngs of
 sad, sick pioneer townspeople in his wake. I refused to consider
@@ -148,18 +153,25 @@ limbs and yanking out shrapnel.
 
 I told my non-technical friends that every day at work was like
 prodding a sick man through a desert. Keep going, I said to his many
-pleas to stop and rest. I spared him whatever kindness I could, but
+pleas to stop and rest. I showed him whatever kindness I could, but
 it wasn't much. I knew that if I let him drink the rest of our water
 and lie down for a nap, then both of us would die out here.
 
 Over the coming months, though the anger and the fear still smoldered
 around us, things began to change. I started with the models, the
 smallest ones first, breaking down each method and redoing it with
-TDD. In a couple months, I couldn't put it off any longer. It was time
-to confront the god-models, the ones with over a thousand lines of
-Ruby code. These models weren't fat; they were pregnant: they held
-inside them whole classes of their own, a service layer of plain-old
+TDD, gradually replacing our galactic star database topology with
+a simple tree. In a couple months, I couldn't put it off any longer.
+It was time to confront the god-models, the ones with over a thousand
+lines of Ruby code. These models weren't fat; they were pregnant: they
+held inside them whole classes of their own, a service layer of plain-old
 Ruby objects.
 
-We wrapped our parched throats in this spartan service layer and
-soldiered on through the deserts.
+The old man and I wrapped our parched throats in this
+spartan service layer and forged on through the deserts. We were
+weighed down by thick controllers and extensive callbacks, so we
+shed them. We stripped down to a predictable set of seven methods.
+
+In the controller layer I closed the authorization and sql injection
+loopholes, maybe just steps ahead of the intruders. I tore out the
+non-RESTful routes and replaced them by modeling new resources.
