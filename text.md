@@ -60,17 +60,16 @@ freelance contractor with significant mobile experience, who had passed
 up the full-time gig and moved on. I had her commits and some of her notes,
 so I decided to give her a call. She was very nice, but her hatred for
 this unreleased mobile app was chilling even over the phone. Kill it and
-start over, she said. With two votes to axe the project, management agreed.
-They were starting to see that their software ambitions were not going to
-come easily.
+start over, she said. With two votes to axe the project, it was now or
+never. It was time to make the case for starting over. To steel myself,
+I rehearsed this line: "What do you want me to be doing in five years?"
+As I saw it, we could either sink years into rehabilitating this project
+or we could try again.
 
-But we had dodged a bullet. When I was preparing to sell the idea of
-ditching the mobile app and starting over, I rehearsed this line:
-"What do you want me to be doing in five years?" As I saw it, we could
-either sink years into rehabilitating this project or we could try again.
+And it worked. Management agreed. They were starting to see that their
+software ambitions were not going to come easily.
 
-And it worked. Management agreed. Having secured their faith and blessing
-to start over, I got to the drawing board, researching the most solid
+I got to the drawing board, researching the most solid
 libraries for building data-rich iOS clients with modular, reusable
 components and extensive automated tests. I was still at the drawing
 board when the bugs began to file in.
@@ -96,8 +95,8 @@ to attempt a refactoring in a code base without tests?
 Yes, that's right. This Rails app that I inherited, the one that had
 been described by my boss (a marketer!) as "pretty solid," had no
 automated tests. It was stuck precariously on Ruby 1.8.7 and Rails 2.3,
-both end-of-life. I described the entity relationships as a "star
-topology"; what I was conveying was that it was a giant clusterf---.
+both end-of-life. I described the entity relationships in the database
+as a "star topology"; what I was conveying was that it was a giant clusterf---.
 The 70,000 lines read like they were written on a whiteboard at a
 dismal job interview. "I was hoping you'd use Enumerable#select,"
 the interviewer would have lamented. It was a relief that it seemed
