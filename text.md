@@ -7,6 +7,27 @@ great place to work, and I'd love to talk with you about it, so please
 catch me sometime during the conference if you're interested in hearing
 more.
 
+This is a talk about compassion. So you can all guess right now that
+I'm a practicing Buddhist, I'm a vegetarian, I abstain from all worldly
+delights, I've been shortlisted a couple times for the Nobel Peace Prize.
+Haha, no, I'm none of those things. I mean, here I am on the stage at
+RubyConf, so you know I'm some kind of rockstar at software, right.
+And I'm going to talk about emotions, so that means I'm a rockstar at
+emotions.
+
+No, I'm not any kind of rockstar. I'm just a software developer.
+If you're a software developer too,
+you know that means that I spend a lot of my daily life failing at
+things and being confronted by my general lack of adequacy. Well, I do
+that in my personal and emotional life too. Never fear though, I have
+a word for this though: LEARNING.
+
+I'm learning how to do life, just like I'm learning how to build software--
+from experience, meaning from mistakes. I want to share a story with
+you about some experiences I had with legacy code, because as I recall
+these experiences, it's finally clear to me what kind of mistakes I
+made and what I could have done differently.
+
 When I started one of my previous gigs, I inherited full responsibility
 over a 70,000-line Ruby on Rails app, a product that my company bought
 from a local shop and used internally every day. On the outside, the app
@@ -93,7 +114,7 @@ So here I was, the lone maintainer of a production application with
 no automated tests, with gaping security holes, with dependencies that
 were out-of-date and sometimes completely dead, and with features so
 unnecessary that users didn't know they were broken. The words flashed
-in front of me again: "Amar, what do you want me to be doing for the next
+in front of me again: "Amar, what do you want to be doing for the next
 five years?"
 
 I get upset just thinking about these moments, because of the
@@ -109,7 +130,7 @@ or Rails 2.3, or if our deployment couldn't scale along with
 increasing loads, since the app used file storage and therefore
 could not run on a distributed cluster.
 
-I dealt with my fear by turning it into anger at the developer at
+I dealt with my fear by turning it into rage. I was angry at the developer at
 the contracting shop, the one who wrote the bulk of the app. A bit
 of googling and I knew a lot about him, and all of it disgusted me.
 The app he built for us had no tests, but he was tweeting pithily in
@@ -170,8 +191,34 @@ Ruby objects.
 The old man and I wrapped our parched throats in this
 spartan service layer and forged on through the deserts. We were
 weighed down by thick controllers and extensive callbacks, so we
-shed them. We stripped down to a predictable set of seven methods.
+shed them. We stripped down to a predictable set of seven methods. We
+closed the authorization and sql injection loopholes, maybe just
+steps ahead of the intruders. We tore out the non-RESTful routes
+and replaced them by modeling new resources.
 
-In the controller layer I closed the authorization and sql injection
-loopholes, maybe just steps ahead of the intruders. I tore out the
-non-RESTful routes and replaced them by modeling new resources.
+Often, our dev branch was in a completely broken state. Having never
+traversed this desert before, we had no map and no compass, just the
+steady track of the beating sun. I didn't know the "right way" to
+rewrite a legacy Rails 2.3 app--I wasn't even very experienced with
+Ruby--and several lessons came in hindsight, some of them trivial and
+commonplace, like where you can't remove `self`. Others were subtler:
+use the Ruby style guide, and better yet, automate style-policing with
+Rubocop; wait to rewrite the routes in the Rails 3 DSL until you are
+restructuring the controllers. And this: get comfortable with saying
+no.
+
+The months wore on and deadlines loomed, but over the desolate horizon
+we saw it: the first flickers of green, then rows upon rows, a
+veritable forest of passing RSpec examples. We upgraded to Rails 3,
+then 4. We brought our code coverage to 95% of the models, and all
+of the controllers. Our mouths agape our eyes wide, we gasped in
+relief at the sight of civilization. We fell to our knees in an
+embrace, my partner and I, this legacy codebase and I.
+
+In the abstract for this talk, I said that your legacy codebase is
+your partner, like a husband or a wife, or any significant other.
+I mean this, literally, legacy code is my boyfriend. I want to talk
+a little today about how working with legacy code is like being in
+a relationship. And coming from the standpoint of someone who has
+has been cruel both to people and to code, I want to tell you why
+you should try to be compassionate instead.
