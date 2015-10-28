@@ -221,3 +221,33 @@ a little today about how working with legacy code is like being in
 a relationship. And coming from the standpoint of someone who has
 has been cruel both to people and to code, I want to tell you why
 you should try to be compassionate instead.
+
+# Culture
+
+Culture, that's what it's about.
+
+In the teaser for this talk, I asked you to let go of anger and fear,
+to let go, and I promised, more or less, that letting go would bring
+you joy. It's a safe promise to make, because it's not a new idea at all.
+
+But I want to give you a little more than that. I didn't start my
+software career writing Ruby. I actually spent over half of my time at
+my first job working with a ghastly nightmare called Cache ObjectScript.
+
+But thanks to people like Matz and DHH, and thanks to a little bit of
+risk-taking and elbow grease of my own, now I get to be paid to spend
+all day sculpting with a language that's truly a joy to touch. Ruby's
+not perfect, but for me and for many of you, I bet it comes close.
+
+Well, if that weren't enough, Ruby comes with a culture and a community,
+and that's why we're all here today. Remember this? MINSWAN.
+Matz is nice, so we are nice. So let's be generous with our kindness.
+Let's be kind to our partners, and our children, and our family, and to
+our coworkers, the people we mentor, and those who mentor us. Let's
+be kind to ourselves, and let's be kind to our code. Even legacy code.
+
+Be generous with your kindness. Spread that shit everywhere. It's the
+most valuable thing in the whole wide world that you get unlimited
+amounts of for absolutely fucking free.
+
+Thank you.
