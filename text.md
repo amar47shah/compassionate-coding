@@ -222,6 +222,14 @@ a relationship. And coming from the standpoint of someone who has
 has been cruel both to people and to code, I want to tell you why
 you should try to be compassionate instead.
 
+# Code as Partner, Code as Child
+
+# It's 1s and 0s. But You're Not
+
+## hacking your attitude for a better day
+
+## hacking your attitude for a better career
+
 # A Passion for Legacy Code
 
 So now you know that it's good for you to try to like your legacy
@@ -230,7 +238,8 @@ jogging every morning and be in bed by 10, just don't forget to
 floss. Because it's good for you.
 
 But I want to let you in on a little secret. I actually don't mind
-legacy code that much anymore. I actually...kind of like it.
+legacy code that much anymore. I actually...kind of like it. Without
+having to force myself.
 
 Isn't that gross? What is this guy talking about?
 
@@ -264,11 +273,32 @@ legacy codebase, no amount of careful preparation will give you
 blessing in disguise. Keep your head up and keep shipping. And
 welcome to Agile.
 
-Why else do I love working with legacy code? Because it's there.
-One reason why writing a talk is so hard--you start with a blank
-page.....
+## clay for sculpting
 
-# Culture
+Why else do I love working with legacy code? Because it's there.
+Have you ever sat down, in your own personal time, to teach
+yourself a new language or framework and been utterly at a loss
+for where to start? This happens to me constantly. One of my
+pet projects now is that I'm learning Haskell, and the idea
+of conceiving and writing an app in Haskell still seems beyond
+me. What should it do? Where should I start?
+
+Somehow it's easy to make progress with the tiny example apps
+and homework problems.
+
+I had the most difficult time writing this talk. Writing
+One reason why writing a talk is so hard--you start with a blank
+page, or maybe with
+
+## the real culprit is the culture
+
+I want to propose to you that legacy code isn't really all that
+bad. And I've told you why. But why is it often such a bad experience
+to inherit code?
+
+## see clearly, be ready
+
+# Ruby Culture, Your Culture
 
 Culture, that's what it's about.
 
