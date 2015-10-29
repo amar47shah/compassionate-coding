@@ -222,6 +222,52 @@ a relationship. And coming from the standpoint of someone who has
 has been cruel both to people and to code, I want to tell you why
 you should try to be compassionate instead.
 
+# A Passion for Legacy Code
+
+So now you know that it's good for you to try to like your legacy
+code. So now you can all go home and eat your vegetables and go
+jogging every morning and be in bed by 10, just don't forget to
+floss. Because it's good for you.
+
+But I want to let you in on a little secret. I actually don't mind
+legacy code that much anymore. I actually...kind of like it.
+
+Isn't that gross? What is this guy talking about?
+
+Here's why I love legacy code: when I work with code that is
+badly structured or poorly tested, I learn more.
+
+There's a not-so-secret secret about software developers, about
+people like us. We love learning. You kind of have to, since
+the list of things you have to know never stops growing.
+
+When you work with a legacy code base, it's almost a given that you
+are working with a production system that is of such value to your
+organization that you are stuck with it. Otherwise, you'd throw it
+out. When you work on a production system, what you do matters, so
+it's important that you make a careful decision. But, paradoxically,
+when you have a problem in production you have to do **something**,
+and you don't have the luxury of unlimited time for research and
+strategy.
+
+This is a good thing. As much as we perfectionists love to be careful
+and get things right--and as much as that's a valued and sought-after
+personality trait--we can never know if we made a good decision until
+after the deed is done. When you push your changes to a production
+system, you have the opportunity for rapid and meaningful feedback.
+
+Sometimes the feedback is that you failed, maybe spectacularly. That's
+good. We learn so much more from mistakes that we do from careful
+preparation. When you're working with an unhealthy, unpredictable
+legacy codebase, no amount of careful preparation will give you
+100% peace-of-mind that your solution is bulletproof. This is a
+blessing in disguise. Keep your head up and keep shipping. And
+welcome to Agile.
+
+Why else do I love working with legacy code? Because it's there.
+One reason why writing a talk is so hard--you start with a blank
+page.....
+
 # Culture
 
 Culture, that's what it's about.
