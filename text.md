@@ -218,11 +218,35 @@ In the abstract for this talk, I said that your legacy codebase is
 your partner, like a husband or a wife, or any significant other.
 I mean this, literally, legacy code is my boyfriend. I want to talk
 a little today about how working with legacy code is like being in
-a relationship. And coming from the standpoint of someone who has
+a relationship. And as someone who has
 has been cruel both to people and to code, I want to tell you why
 you should try to be compassionate instead.
 
 # Code as Partner, Code as Child
+
+Something frustrating about dealing with other people is that they're
+not you. Crazy, right? They just don't see things the way you do.
+Sometimes it's hard to figure out why they do things the way they do
+at all.
+
+Other people do things that we wouldn't do. They do things we wouldn't
+expect. They're so unpredictable.
+
+Other people are different partly because they have had different
+experiences from you. Most of the time, there's no way to know what
+all these experiences were and how they shaped this person.
+
+Other people are the worst, right? Not only is it impossible to know
+what they'll do, it's impossible to know why. There's no research
+you can do to find out exactly how to interact with them so that they
+give you the results you want. They're impossible to control.
+
+Control. Are we trying to control our personal relationships? If you
+are, please stop. We can't control anyone else. Our best option is
+to position ourselves near good people and trust them to do their
+best.
+
+A legacy code base is not as complicated as, say, your boyfriend.
 
 # It's 1s and 0s. But You're Not
 
@@ -284,11 +308,17 @@ of conceiving and writing an app in Haskell still seems beyond
 me. What should it do? Where should I start?
 
 Somehow it's easy to make progress with the tiny example apps
-and homework problems.
+and homework problems. Now if only I could get my hands on a
+big production system.
 
-I had the most difficult time writing this talk. Writing
-One reason why writing a talk is so hard--you start with a blank
-page, or maybe with
+Hmm... if only I could practice my skills on a big production
+system that mostly works but needs a lot of tooling behind the
+scenes. if only I could be paid a salary every day to practice
+on a system like that. Something that already has a mostly
+well-defined purpose and a lot of existing code to work
+with, but could benefit from a series of incremental improvements.
+Where could I find something like that? Hmm...
+
 
 ## the real culprit is the culture
 
@@ -306,16 +336,12 @@ In the teaser for this talk, I asked you to let go of anger and fear,
 to let go, and I promised, more or less, that letting go would bring
 you joy. It's a safe promise to make, because it's not a new idea at all.
 
-But I want to give you a little more than that. I didn't start my
-software career writing Ruby. I actually spent over half of my time at
-my first job working with a ghastly nightmare called Cache ObjectScript.
+But I want to give you a little more than that. We're all here because
+of Ruby. Thanks to people like Matz and DHH, we get to be paid to
+spend all day sculpting with a language that's truly a joy to touch.
+Ruby's not perfect, but for me and for many of you, I bet it comes close.
 
-But thanks to people like Matz and DHH, and thanks to a little bit of
-risk-taking and elbow grease of my own, now I get to be paid to spend
-all day sculpting with a language that's truly a joy to touch. Ruby's
-not perfect, but for me and for many of you, I bet it comes close.
-
-Well, if that weren't enough, Ruby comes with a culture and a community,
+If that weren't enough, Ruby comes with a culture and a community,
 and that's why we're all here today. Remember this? MINSWAN.
 Matz is nice, so we are nice. So let's be generous with our kindness.
 Let's be kind to our partners, and our children, and our family, and to
