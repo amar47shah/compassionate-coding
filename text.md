@@ -232,6 +232,12 @@ at all.
 Other people do things that we wouldn't do. They do things we wouldn't
 expect. They're so unpredictable.
 
+Does it ever make you anxious that the people around you are so
+*human* that you are never 100% sure what they will do? Does it make
+you worry that maybe your house-sitter won't remember to let the dog
+out or the barista won't remember to use skim milk in your triple
+caramel mochaccino?
+
 Other people are different partly because they have had different
 experiences from you. Most of the time, there's no way to know what
 all these experiences were and how they shaped this person.
@@ -246,13 +252,38 @@ are, please stop. We can't control anyone else. Our best option is
 to position ourselves near good people and trust them to do their
 best.
 
-A legacy code base is not as complicated as, say, your boyfriend.
+A legacy code base is not as complicated as, say, your boyfriend. But
+the reasons why it does what it does are not easy to parse. Although
+we have all the commits--we have artifacts--and we can expend a lot
+of elbow grease to find out when a decision was made and a good deal
+of mental real estate to guess why, in the end, we don't have the
+full story.
+
+When we make edits to a code base that we don't understand, we can never be
+100% sure that the outcome will match what we expect. But any large
+code base is difficult to understand; even with tests, it is not trivial
+to predict the behavior of new code in a large system.
+
+What if we stopped trying to control our code? What if we dropped the
+illusion that we can predict what these large, unknowable systems will do,
+and simply trusted--not that they will behave flawlessly--but just that
+everything will turn out all right?
+
+How does it feel when someone gives you a responsibility but doesn't
+trust you with it? Maybe you've been the barista who gets an interrogation
+when you hand over the drink: did you use soymilk? did you add caramel?
+Maybe you've had partners or parents who always seem to be second-guessing
+you. It doesn't feel good. And it ripples out. You start to feel like
+controlling people is a reasonable thing to do, and you start to do it
+yourself.
 
 # It's 1s and 0s. But You're Not
 
 Ok, so now you're probably thinking, code isn't a person, it doesn't
 have feelings, and it doesn't mind if you insult it or complain about
-it. And technically you'd be right.
+it. It can't try to do its best; it just does what it does.
+
+And technically you'd be right.
 
 In fact, you are more than welcome to rag on your legacy code all day.
 After all, you didn't write (most of) it. So it doesn't look bad on you,
@@ -260,8 +291,8 @@ or so you think.
 
 ## hacking your attitude for a better day
 
-But what's the toll of all this negative thinking? I'll spare you
-the lecture and just say what negative thinking was 
+Here's what I want to propose: You have a choice. You have a choice
+whether to look at this code as someone else's 
 
 ## hacking your attitude for a better career
 
