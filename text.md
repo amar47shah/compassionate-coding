@@ -250,7 +250,18 @@ A legacy code base is not as complicated as, say, your boyfriend.
 
 # It's 1s and 0s. But You're Not
 
+Ok, so now you're probably thinking, code isn't a person, it doesn't
+have feelings, and it doesn't mind if you insult it or complain about
+it. And technically you'd be right.
+
+In fact, you are more than welcome to rag on your legacy code all day.
+After all, you didn't write (most of) it. So it doesn't look bad on you,
+or so you think.
+
 ## hacking your attitude for a better day
+
+But what's the toll of all this negative thinking? I'll spare you
+the lecture and just say what negative thinking was 
 
 ## hacking your attitude for a better career
 
