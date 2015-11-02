@@ -20,7 +20,7 @@ If you're a software developer too,
 you know that means that I spend a lot of my daily life failing at
 things and being confronted by my general lack of adequacy. Well, I do
 that in my personal and emotional life too. Never fear though, I have
-a word for this though: LEARNING.
+a word for this: LEARNING.
 
 I'm learning how to do life, just like I'm learning how to build software--
 from experience, meaning from mistakes. I want to share a story with
@@ -291,10 +291,48 @@ or so you think.
 
 ## hacking your attitude for a better day
 
+But is it the best choice?
+
+Being a human, it's hard to make good choices sometimes. Should I
+re-watch these three episodes of The Office, or should I go to bed?
+As software professionals, we've become very good at developing an
+adopting processes that help us make better decisions.
+
 Here's what I want to propose: You have a choice. You have a choice
-whether to look at this code as someone else's 
+whether to look at this code as an old drudge you are stuck with or
+an opportunity to sharpen your skills and deliver value.
+
+Here's a hack you can use. It's called "cognitive restructuring." The
+full-fledged version is a technique of cognitive behavior therapy,
+but you can take the general idea and apply it in your daily life.
 
 ## hacking your attitude for a better career
+
+Here's an insight I missed because of my reliance on automatic,
+dysfunctional thoughts. This is an excellent tweet I encountered
+when I was in the midst of this trek out of the desert with my
+weary old legacy system:
+
+[Tweet!]
+
+This is very good advice, and it linked to a great article that
+exposes the basic fallacy of "code ownership". More on that in
+a second.
+
+But this is how I responded: snarky and sarcastic.
+
+My automatic thought--"It's not fair"--predisposed me to ignore
+some good advice.
+
+Well, here's my chance to make it right, and pass on this
+stellar advice about code ownership.
+
+...
+
+This reminds me of a talk I saw recently by Cal Newport, the
+author of a book called "So good they can't ignore you." The
+talk is called "...."
+
 
 # A Passion for Legacy Code
 
@@ -368,7 +406,75 @@ I want to propose to you that legacy code isn't really all that
 bad. And I've told you why. But why is it often such a bad experience
 to inherit code?
 
+We get angry when we deal with legacy code. We get angry because
+we're afraid.
+
+* Afraid that we won't be able to figure out solutions to problems
+  that SHOULD be easy to solve
+* Afraid that our estimates will come up short, and we'll look lazy
+  or incompetent
+* Afraid that our changes will work fine in development but go
+  horribly wrong in production
+* Afraid that we'll take the blame for the mess we were left in.
+
+Blame. 
+
+Where does blame come from? I think it arises in organizations where
+responsibility for all aspects of the work is not shared. It thrives
+in hierarchically organized groups with clear boundaries that prevent
+Person A from feeling like they need to have even a basic understanding
+of Subject B.
+
+It runs rampant in the Enterprise.
+
+We, as software developers saddled with legacy projects, hate this
+culture of blame, but of course we perpetuate it when we attack our
+predecessors and...
+
+But there's a more insidious way we perpetuate a culture of blaming:
+we encourage a mystique of the programmer. Business people like to see us
+as wizards who churn out mysterious artifacts that, properly applied,
+can generate revenue. Too often, we allow this. We like to be seen
+as the masters of an opaque art, because it grants us a certain
+autonomy. Only we understand code--only we can make good decisions
+about it.
+
+Until our code's in production. And then the bubble pops. That mysterious
+artifact, I'm sure, is a great example of a mysterious artifact. But it
+doesn't seem to be doing just what we wanted.
+
+By taking on all of the responsibility for understanding code,
+we leave ourselves open to taking on all the blame for that code. Even
+though a good software system is much more than a feat of engineering.
+
+A healthy work culture demands shared responsibility for all aspects
+of the product. A healthy work culture can't allow any important collaborator
+to say something like "I have no interest in software," if software
+is any part of what you sell.
+
 ## see clearly, be ready
+
+Maybe you work somewhere where blame hangs in the air, where workers
+aren't trusted with their responsibilities, where decisions are handed
+down to you through three layers of management.
+
+If this is the case, there are two important questions that you have
+to continually evaluate:
+
+1) What can I do to change this culture?
+2) Under what circumstances will I leave?
+
+Something that anger and fear do is that they cloud our ability to
+see things as they are and reason about them dispassionately. If we
+can let go of these feelings, we can think strategically. Maybe you
+need to stay at this job for a few months--maybe you need the experience
+on your resume, maybe you need the security while you deal with challenges
+in your personal life, maybe you want to be selective about the next
+opportunity you take.
+
+And maybe you can make a difference while you stay. Don't be afraid
+to keep your exit strategy in your back pocket, even as you work
+to improve the culture where you are.
 
 # Ruby Culture, Your Culture
 
